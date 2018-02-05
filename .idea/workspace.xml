@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="758c3f8f-0a3c-4dca-a07e-2e72ba60d868" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" afterPath="$PROJECT_DIR$/aboutus.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -198,7 +196,7 @@
       <workItem from="1517764234390" duration="112000" />
       <workItem from="1517766689423" duration="322000" />
       <workItem from="1517772216425" duration="1512000" />
-      <workItem from="1517804079667" duration="3204000" />
+      <workItem from="1517804079667" duration="3226000" />
     </task>
     <task id="LOCAL-00001" summary="Navbar and Breadcrumbs">
       <created>1517723981599</created>
@@ -235,11 +233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517807160422</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tables and Cards">
+      <created>1517812623226</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517812623226</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16651000" />
+    <option name="totallyTimeSpent" value="16673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="747" y="23" width="936" height="942" extended-state="0" />
