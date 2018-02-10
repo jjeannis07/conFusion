@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ristorante Con Fusion</title>
+    <!-- build:css css/main.css -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endbuild -->
 </head>
 
 <body>
@@ -267,6 +269,7 @@
             </div>
         </div>
         </div>
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="row row-content align-items-centerr">
@@ -309,26 +312,13 @@
         </div>
     </footer>
 
-
+    <!-- build:js js/main.js -->
+    <script src="js/scripts.js"></script>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-        <script>
-            $("#carousel-button").click(function(){
-                if ($("#carousel-button").children("span").hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $("#carousel-button").children("span").removeClass('fa-pause');
-                    $("#carousel-button").children("span").addClass('fa-play');
-                }
-                else if ($("#carousel-button").children("span").hasClass('fa-play')){
-                    $("#mycarousel").carousel('cycle');
-                    $("#carousel-button").children("span").removeClass('fa-play');
-                    $("#carousel-button").children("span").addClass('fa-pause');
-                }
-            });
-        </script>
+    <!-- endbuild -->
 </body>
 
 </html>
